@@ -53,6 +53,7 @@ body{
     border:2px solid #d8d1d1;
 }
 
+/* it will change its color to green  */
 .form-control.success input{
     border: 2px solid rgb(82, 219, 82);
 }
