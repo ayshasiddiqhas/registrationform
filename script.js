@@ -38,6 +38,7 @@ document.querySelector("button").addEventListener("click", (event) => {
   event.preventDefault();
   validateInput();
   alert('Successfully registered');
+  location.href=`demo.html?userName=${userName}`;
 });
 
 // helper function to optimize
