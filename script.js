@@ -37,6 +37,7 @@ function validateInput() {
 document.querySelector("button").addEventListener("click", (event) => {
   event.preventDefault();
   validateInput();
+  alert('Successfully registered');
 });
 
 // helper function to optimize
